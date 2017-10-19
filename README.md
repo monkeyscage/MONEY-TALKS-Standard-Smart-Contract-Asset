@@ -1,6 +1,14 @@
 # MONEY-TALKS-Standard-Smart-Contract-Asset
 A standard way to make your smart contract Borrowable/Rentable/Lendable as a real asset.
+A unified Standard for Digital Smart Goods based on smart contracts.
+A way to complete the Ethereum Ecosystem with a global standard for Smart Contracts as digital goods on one side, and the world of tokens on the other side.
+A Standard Smart Asset (a contract) must satisfy 3 properties:
 
+    1 Admit Ownership
+    2 Admit Ownership transfer
+    3 Admit Manipulation by a third party smart environment (superOwner)
+
+Implementing these properties,  a contract mirrors the properties of an erc20 token and can be considered as a smart asset.
 
 ## Preamble
 
@@ -39,7 +47,7 @@ Tokens are passive quantities and have no real inner function.
 Contracts are passive, but "qualities based" and can talk and also (being standard) "manipulate each others".
 
     In the third age (purely theoretical sci-fi) Smart Assets become active entities.
-Quantity based assets may become obsolete, and may be completeley replaced by "qualities based assets", and their ACTIVE ecosystem.
+Quantity based assets may become obsolete, and may be completeley replaced by "qualities based assets", and their ACTIVE ecosystem. (Pure speculation)
 
 
 ## Specification
@@ -87,9 +95,9 @@ I have my valuable slot-machine. I want to rent it out. I find a Standard Rental
 
 ### Example 2: Creating ETF baskets of slotmachines
 Bancor introduced a nice idea: Fill a basket with various ERC20 and tokenize the basket into a unique token.
-This ERC introduces the idea of filling the basket with various slot-machines, later tokenized.
+This ERC introduces the idea of filling the basket with various slot-machines, and later tokenize the basket into a distributable token.
 The tokenization may be temporary. Ideally you can tokenize any smart contract, if you define it in a standard way, so that any developer can build a standard tokenizer, ready for any Smart Asset, and at the same time the OWNERSHIP is managed at a different level, according to the specific needs.
-A basket could be created as an ETF (tokenized), or could simply be itself a Standard Smart Asset (this ERC), and be furtherly manipulated by further super-manipulators.
+A basket could be tokenized, or could simply be itself a Standard Smart Asset (this ERC), and be furtherly manipulated by further super-manipulators.
 
 ### Example 3: exchange ring
 We have 10 slot-machines and 10 friends connected into an exchange ring. Each friend owns a slot-machine for one day. Everyday the ownerships of the slot machine rotate around the ring, so each friend changes machine daily. The Superowner is needed to do the job, while keeping ownership rights (access to inner slot-machine functions) available at Owners level.
@@ -171,8 +179,9 @@ Contract B is renting out Contract A.
     Setting the SuperOwner in "ERC MoneyTalks" is equivalent to approve(address _spender, uint256 _value) in ERC20 standard.
     
     Please understand the importance of a simmetry between ERC20 and "ERC MoneyTalks" (token-asset VS contract-asset)
+
+    There are three main properties we must 
     
-    Are we going to implement something like setSuperOwnerAndCallIt() ? (first you set it, after that you call it to notify)
 
 ## Copyright
 free

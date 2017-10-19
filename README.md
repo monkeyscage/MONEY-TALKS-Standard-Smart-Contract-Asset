@@ -29,16 +29,16 @@ Implementing these properties,  a contract mirrors the properties of an erc20 to
 This standard completes the economy of Ethereum and the vision of a world orbiting around contracts (in the form of assets), as a complementary logic to a previous world only based on ERC20 Assets.
 
 ## Abstract
-Smart Contracts can have a value (example: a slot-machine with many players), therefore they need to be defined in a standard way, so that any external Standard Module can manipulate them in term of ownership, making possible to build a whole economy based on **Smart Assets**. Smart Assets will be easily Rentable/Lendable/Autctionable by means of third party standard modules/contracts.
+Smart Contracts can have a value (example: a slot-machine with many historical players), therefore you may want to define them as Digital Goods, written in a way where any external Standard Module can manipulate them in term of ownership, making possible to build a whole economy based on **Smart Assets**. Smart Assets will be easily Rentable/Lendable/Autctionable by means of third party standard modules/contracts.
 
 **The first principle is to make possible a "temporary ownership" or any other similar application.**
 
 **The second principle is to split the rights of the Owner from the rights of a possible external "escrow system" (SuperOwner), keeping them at two different levels.**
 
-In few words: if you recognize the existence of a SuperOwner, you admit the creation of third party standard modules/contracts for the manipulation of that specific **Standard Smart Asset** you are building.
+In few words: if you recognize the existence of a SuperOwner, you admit the creation of third party standard modules/contracts for the manipulation of that specific **Standard Smart Asset**.
 In the future your contract may end up in a lending action, it may be tokenized by this or that contract, it may become the object of an auction. A standard approach in the definition of the contract as Smart Asset, will keep open all the possible future destinations of your contract. A contract that is not meant to be traded or to increase its value shouldn't be declared as Smart Asset.
 
-According to the phylosophy of this ERC, the first digital good/asset in the ethereum world is the smart cotnract, not the token. Tokenization can be a secondary standard step one would want to apply to a Standard Smart Asset. Remeber that tokens are number and can't manipulate each others. Smart Assets are smart cotnracts, they are smart and can manipulate anything in the environment. Ideally they can manipulate theirself.
+**According to the phylosophy of this ERC, the first digital good/asset in the Ethereum world is the smart cotnract, not the token**. Tokenization can be a secondary standard step one would want to apply to a Standard Smart Asset. Remeber that tokens are number and can't manipulate each others. Smart Assets are smart cotnracts, they are smart and can manipulate anything in the environment. Ideally they can manipulate theirself.
 
 
 ## Motivation

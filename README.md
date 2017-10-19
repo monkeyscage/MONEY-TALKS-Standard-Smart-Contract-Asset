@@ -29,9 +29,9 @@ Implementing these properties,  a contract mirrors the properties of an erc20 to
 This standard completes the economy of Ethereum and the vision of a world orbiting around contracts (in the form of assets), as a complementary logic to a previous world only based on ERC20 Assets.
 
 ## Abstract
-**According to the phylosophy of this ERC, the first digital good/asset in the Ethereum world is the smart contract, not the token**. Tokenization can be a secondary standard step one would want to apply to a Standard Smart Asset. Remeber that tokens are number and can't manipulate each others. Smart Assets are smart cotnracts, they are smart and can manipulate anything in the environment. Ideally they can manipulate theirself.
+**According to the phylosophy of this ERC, the first digital good/asset in the Ethereum world is the smart contract, not the token**. Tokenization can be a secondary standard step one would want to apply to a Standard Smart Asset. Remember that tokens are number and can't manipulate each others. Smart Assets are smart contracts, they are smart and can manipulate anything in the environment. Ideally they can manipulate theirself. A Smart Asset is much more than a token-asset.
 
-Smart Contracts can have a value (example: a slot-machine with many historical players), therefore you may want to define them as Digital Goods, written in a way where any external Standard Module can manipulate them in term of ownership, making possible to build a whole economy based on **Smart Assets**. Smart Assets will be easily Rentable/Lendable/Autctionable by means of third party standard modules/contracts.
+Smart Contracts can have a value (example: a slot-machine with many historical players), therefore you may want to define them as Digital Goods, written in a way where any external Standard Module can manipulate them in term of ownership, making possible to build a whole economy based on **Smart Assets**. Smart Assets will be easily Rentable/Lendable/Autctionable/Tokenizable (temporarly or forever) by means of third party standard modules/contracts.
 
 **The first principle is to make possible a "temporary ownership" or any other similar application.**
 

@@ -13,7 +13,7 @@ Implementing these properties,  a contract mirrors the properties of an erc20 to
 ## Preamble
 
     EIP: <to be assigned>
-    Title: MoneyTalks - Standard for Smart [contract based] Assets
+    Title: MoneyTalks - Standard for Smart [contract based] Assets/DigitalGoods
     Author: maxxflyer
     Type: Standard Track
     Category: ERC 
@@ -36,6 +36,9 @@ The first concept is to make possible a "temporary ownership" or any other simil
 The second concept is to split the rights of the Owner from the rights of a possible external "escrow system" (SuperOwner), keeping them at two different levels.
 
 In few words: if you recognize the existence of a SuperOwner, you admit the creation of third party standard modules/contracts for the manipulation of that specific **Standard Smart Asset** you are building.
+In the future your contract may end up in a lending action, it may be tokenized by this or that contract, it may become the object of an auction. A standard approach in the definition of the contract as Smart Asset, will keep open all the possible future destinies of your contract. A contract that is not meant to be traded or to increase its value shouldn't be declared as Smart Asset.
+
+According to the phylosophy of this ERC, the first digital good/asset in the ethereum world is the smart cotnract, not the token. Tokenization can be a secondary standard step one would want to apply to a Standard Smart Asset. Remeber that tokens are number and can't manipulate each others. Smart Assets are smart cotnracts, they are smart and can manipulate anything in the environment. Ideally they can manipulate theirself.
 
 
 ## Motivation

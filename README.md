@@ -1,7 +1,5 @@
 # MONEY-TALKS-Standard-Smart-Contract-Asset
-A standard way to make your smart contract Borrowable/Rentable/Lendable as a real asset.
-A unified Standard for Digital Smart Goods based on smart contracts.
-A way to complete the Ethereum Ecosystem with a global standard for Smart Contracts as digital goods on one side, and the world of tokens on the other side.
+
 
 
 ## Preamble
@@ -16,6 +14,9 @@ A way to complete the Ethereum Ecosystem with a global standard for Smart Contra
 
 
 ## Simple Summary
+A standard way to make your smart contract Borrowable/Rentable/Lendable as a real asset.
+A unified Standard for Digital Smart Goods based on smart contracts.
+
 The universe of **Ethereum Assets** orbits around 2 main standards.
 
 The first is the well known ERC20, important because not only it recognizes a **token as an asset** you can own and transfer, but also because it admits [ *approve(address _spender, uint256 _value)* ] the existence of an external ecosystem of tools meant to manipulate or be manipulated by those tokens.

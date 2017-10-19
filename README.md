@@ -177,12 +177,6 @@ Contract B is renting out Contract A.
     }
 
 
-# Notes:
-
-    Setting the SuperOwner in "ERC MoneyTalks" is equivalent to approve(address _spender, uint256 _value) in ERC20 standard.
-    
-    Please understand the importance of a simmetry between ERC20 and "ERC MoneyTalks" (token-asset VS contract-asset)
-
     
 
 ## Copyright

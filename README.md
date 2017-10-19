@@ -35,8 +35,9 @@ This standard completes the economy of Ethereum and the vision of a world orbiti
 ## Abstract
 Smart Contracts can have a value (example: a slot-machine with many players), therefore they need to be defined in a standard way, so that any external Standard Module can manipulate them in term of ownership, making possible to build a whole economy based on **Smart Assets**. Smart Assets will be easily Rentable/Lendable/Autctionable by means of third party standard modules/contracts.
 
-The first concept is to make possible a "temporary ownership" or any other similar application.
-The second concept is to split the rights of the Owner from the rights of a possible external "escrow system" (SuperOwner), keeping them at two different levels.
+**The first principle is to make possible a "temporary ownership" or any other similar application.**
+
+**The second principle is to split the rights of the Owner from the rights of a possible external "escrow system" (SuperOwner), keeping them at two different levels.**
 
 In few words: if you recognize the existence of a SuperOwner, you admit the creation of third party standard modules/contracts for the manipulation of that specific **Standard Smart Asset** you are building.
 In the future your contract may end up in a lending action, it may be tokenized by this or that contract, it may become the object of an auction. A standard approach in the definition of the contract as Smart Asset, will keep open all the possible future destinies of your contract. A contract that is not meant to be traded or to increase its value shouldn't be declared as Smart Asset.

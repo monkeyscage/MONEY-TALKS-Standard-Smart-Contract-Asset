@@ -47,7 +47,7 @@ According to the phylosophy of this ERC, the first digital good/asset in the eth
 Tokens are passive quantities and have no real inner function.
 
     In the second age Ethereum implements Smart Assets (ERC MoneyTalks).
-Contracts are passive, but "qualities based" and can talk and also "manipulate each others".
+Contracts are passive, but they are "qualities based" and can talk and also "manipulate each others". Contracts are the Assets/Digital-Goods of the future.
 
     In the third age (purely theoretical sci-fi) Smart Assets become active entities.
 Quantity based assets may become obsolete, and may be completeley replaced by "qualities based assets", and their ACTIVE ecosystem. (Pure speculation)

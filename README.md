@@ -1,8 +1,4 @@
-# MONEY-TALKS-Standard-Smart-Contract-Asset
 
-
-
-## Preamble
 
     EIP: <to be assigned>
     Title: MoneyTalks - Standard for Smart [contract based] Assets/DigitalGoods
